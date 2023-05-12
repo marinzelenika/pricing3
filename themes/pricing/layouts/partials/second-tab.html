@@ -11,9 +11,8 @@
     .PricingPlans }} {{ if not (or (strings.Contains .Name "Old Subscription") (lt .DisplayOrder 0)) }} {{
     $name := .Name }} {{ $ppId := .Id }} 
         {{ if strings.Contains $name "Metered" }}
-
         <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card text-center" style="margin:0 auto; height:620px; margin-bottom:2em;">
+        <div class="card text-center" style="margin:0 auto; height:660px; margin-bottom:2em;">
         <div class="card-body">
           <h5 class="card-title"><strong>{{ $name }}</strong></h5>
           {{ i18n "estimate" . }} 
@@ -30,7 +29,7 @@
           <p style="font-size: small">{{ i18n "with-free-support" . }}</p>
           {{ $linkUrl := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId }}
-          <a class="btn btn-primary btn-lg fam-pack-btn1" href="{{ $linkUrl }}"
+          <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrl }}"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
           <hr />
@@ -51,7 +50,7 @@
         <p style="font-size: small;">{{ i18n "with-paid-support" . }}</p>
         {{ $linkUrlwPaidSupport := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidSupport=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1" href="{{ $linkUrlwPaidSupport }}"
+        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
           <hr />
@@ -67,7 +66,7 @@
     <p style="font-size: small">{{ i18n "with-paid-consulting" . }}</p>
     {{ $linkUrlwPaidConsulting := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidConsulting=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1" href="{{ $linkUrlwPaidConsulting }}"
+        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
 
