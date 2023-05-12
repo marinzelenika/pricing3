@@ -14,7 +14,6 @@ var collapseElement = document.getElementById("collapseExample");
 var buttonElement = document.querySelector(
   '[data-bs-target="#collapseExample"]'
 );
-console.log(collapseElement);
 var bsCollapse = new bootstrap.Collapse(collapseElement, { toggle: false });
 
 collapseElement.addEventListener("show.bs.collapse", function () {
