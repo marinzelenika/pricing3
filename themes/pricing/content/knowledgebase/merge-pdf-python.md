@@ -1,5 +1,5 @@
 ---
-title: "How to Merge PDF files using Python [With code examples]"
+Name: "How to Merge PDF files using Python [With code examples]"
 date: 2023-04-27
 description: "Learn how to merge PDF files with Python. We provide a simple method for merging PDF files, allowing you to combine multiple PDF files into a single document."
 categories: "articles"

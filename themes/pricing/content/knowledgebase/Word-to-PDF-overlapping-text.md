@@ -1,5 +1,5 @@
 ---
-title: "Word to PDF Overlapping Text [Step-by-step solution]"
+Name: "Word to PDF Overlapping Text [Step-by-step solution]"
 date: 2023-04-26
 description: "Learn how to fix Word to PDF overlapping text issues with our step-by-step solution. Use Aspose.Words API for accurate conversion without text overlap."
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Unlock the Full Potential of Your Files with Aspose File Format API"
+Name: "Unlock the Full Potential of Your Files with Aspose File Format API"
 date: 2023-04-17
 description: "Unlock the full potential of your files with Aspose and learn how this versatile tool can benefit industries such as finance, legal, education, and publishing."
 draft: false

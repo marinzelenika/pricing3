@@ -1,5 +1,5 @@
 ---
-title: "Aspose File Format API: A User's Guide to Getting Started"
+Name: "Aspose File Format API: A User's Guide to Getting Started"
 date: 2023-04-26
 description: "Learn how to get started with Aspose File Format API, a comprehensive tool for working with Microsoft Word, Excel, PowerPoint, PDF, and more."
 categories: "articles"

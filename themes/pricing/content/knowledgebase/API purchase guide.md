@@ -1,5 +1,5 @@
 ---
-title: "Simplify Your File Management with Aspose: A Guide to Purchasing an API"
+Name: "Simplify Your File Management with Aspose: A Guide to Purchasing an API"
 date: 2023-04-15
 description: "Improve your file management experience with Aspose. Our guide to purchasing an API simplifies the process and automates your document workflows."
 categories: "articles"

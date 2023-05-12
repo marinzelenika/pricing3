@@ -1,5 +1,5 @@
 ---
-title: "Why Choose Aspose API: The Benefits and Advantages of Using Aspose File Format API"
+Name: "Why Choose Aspose API: The Benefits and Advantages of Using Aspose File Format API"
 date: 2023-04-16
 description: "Discover the benefits of using Aspose APIs for file format handling. From flexibility and ease of use to cost-effectiveness and security, Aspose has it all!"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "The Ultimate Guide to Choosing the Right File Format API for Your Business Needs"
+Name: "The Ultimate Guide to Choosing the Right File Format API for Your Business Needs"
 date: 2023-04-17
 description: "Learn how to choose the right file format API for your business needs. Discover the benefits of the Aspose API for document-related tasks."
 draft: false
