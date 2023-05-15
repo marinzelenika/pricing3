@@ -10,15 +10,28 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-var textElements = document.getElementsByClassName("card-text");
-var limit = 100;
+var cardElements = document.getElementsByClassName("card");
+var limit = 130;
 
-if (window.innerWidth < 440) {
-  for (var i = 0; i < textElements.length; i++) {
-    var text = textElements[i].textContent;
+if (window.innerWidth < 400) {
+  for (var i = 0; i < cardElements.length; i++) {
+    var titleElement = cardElements[i].getElementsByClassName("card-title")[0];
+    var textElement = cardElements[i].getElementsByClassName("card-text")[0];
 
-    if (text.length > limit) {
-      textElements[i].textContent = text.substring(0, limit) + "...";
+    var title = titleElement.textContent;
+    var text = textElement.textContent;
+
+    var combinedText = title + " " + text;
+
+    if (combinedText.length > limit) {
+      var truncatedText = combinedText.substring(0, limit) + "...";
+      var truncatedTitleLength = Math.min(title.length, truncatedText.length);
+      var truncatedTitle = truncatedText.substring(0, truncatedTitleLength);
+      var truncatedTextContent = truncatedText.substring(truncatedTitleLength);
+
+      titleElement.textContent = truncatedTitle;
+      textElement.textContent = truncatedTextContent;
     }
   }
 }
+

@@ -85,6 +85,12 @@ body {
             font-size: 11px;
         }
     }
+    .kb-header {
+        padding: .3rem 0 !important;
+    }
+    .kb-lead {
+        padding: .3rem 0 !important;
+    }
 }
 @media screen and (min-width: 700px) and (max-width: 1280px) {
   .temp-license-btn{
