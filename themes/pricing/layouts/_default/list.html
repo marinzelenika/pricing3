@@ -126,20 +126,10 @@ transform.Unmarshal . }}
 </div>
 {{ end }}
 <div class="text-center">
-<button class="btn btn-primary read-more" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+<a href="/knowledgebase" class="btn btn-primary read-more">
     Read more...
-  </button>
+</a>
   <hr style="margin-bottom: 15px; color:black">
   </div>
-<div class="collapse" id="collapseExample">
-{{- range after 4 (where .Site.RegularPages "Type" "knowledgebase") -}}
-<div class="card border-primary mb-3 article-card" style="height:fit-content; margin-top: 1rem; cursor: pointer" onclick="window.location='{{ .RelPermalink }}';">
-  <div class="card-body text-primary">
-    <h5 class="card-title" style="color: black;">{{ .Params.Name }}</h5>
-    <p class="card-text">{{ .Params.description }}</p>
-  </div>
-</div>
-{{ end }}
-</div>
 </div>
 {{ end }}

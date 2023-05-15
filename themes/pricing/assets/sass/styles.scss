@@ -1,5 +1,5 @@
 .jumbotron {
-    padding: 4rem 2rem;
+    padding: 2.5rem 2rem;
     margin-bottom: 2rem;
     background: rgb(255,255,255);
     background: url(https://www.aspose.com/img/bg-newheader.webp) center center/cover no-repeat;
@@ -29,12 +29,41 @@ body{
     width: 70%
 }
 .kb-container{
-    padding: 10px 100px;
+    padding: 1rem 5.5rem;
+}
+.kb-header{
+    padding: 1rem 5rem;
+}
+.kb-lead{
+    padding: 1rem 5rem;
 }
 @media(max-width:720px) {
     .lead {
         width: 100%
     }
+    .kb-container{
+    padding: 1rem 2rem;
+}
+.kb-header{
+    padding: 1rem .01rem;
+}
+.kb-lead{
+    padding: 1rem .01rem;
+}
+}
+@media(max-width:1280px) {
+    .kb-container{
+    padding: 1rem 2rem;
+}
+.kb-header{
+    padding: 1rem 1rem;
+}
+.kb-lead{
+    padding: 1rem 1rem;
+}
+.jumbotron{
+    padding: .5rem .5rem;
+}
 }
 hr {
     border-top: 0;
