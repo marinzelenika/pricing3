@@ -118,10 +118,10 @@ transform.Unmarshal . }}
 {{ end }}{{ end }}{{ end }}{{ end }}
 <h2 class="mt-5">Knowledgebase</h2>
 {{- range first 4 (where .Site.RegularPages "Type" "knowledgebase") -}}
-<div class="card border-primary mb-3 article-card" style="height:fit-content; margin-top: 1rem; cursor: pointer" onclick="window.location='{{ .RelPermalink }}';">
+<div class="card border-primary mb-3 article-card" onclick="window.location='{{ .RelPermalink }}';">
   <div class="card-body text-primary">
     <h5 class="card-title" style="color: black;">{{ .Params.Name }}</h5>
-    <p class="card-text">{{ .Params.description }}</p>
+    <p class="card-text" id="card-text">{{ .Params.description }}</p>
   </div>
 </div>
 {{ end }}

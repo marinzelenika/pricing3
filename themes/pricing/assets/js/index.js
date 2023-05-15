@@ -10,16 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-var collapseElement = document.getElementById("collapseExample");
-var buttonElement = document.querySelector(
-  '[data-bs-target="#collapseExample"]'
-);
-var bsCollapse = new bootstrap.Collapse(collapseElement, { toggle: false });
+var textElements = document.getElementsByClassName("card-text");
+var limit = 100;
 
-collapseElement.addEventListener("show.bs.collapse", function () {
-  buttonElement.innerHTML = "Read less...";
-});
+if (window.innerWidth < 440) {
+  for (var i = 0; i < textElements.length; i++) {
+    var text = textElements[i].textContent;
 
-collapseElement.addEventListener("hide.bs.collapse", function () {
-  buttonElement.innerHTML = "Read more...";
-});
+    if (text.length > limit) {
+      textElements[i].textContent = text.substring(0, limit) + "...";
+    }
+  }
+}
