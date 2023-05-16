@@ -7,7 +7,7 @@
       "other": "Native APIs zum Erstellen, Bearbeiten, Konvertieren und Drucken von Word-Dokumenten aus jeder Desktop-, Web- oder Mobilanwendung."
     },
     "desc-Aspose.Cells Product Family": {
-      "other": "Native APIs zum Erstellen, Bearbeiten, Konvertieren und Rendern von Excel-Dateien. Exportieren Sie Tabellenkalkulationen in mehrere Formate auf jeder Plattform."
+      "other": "Native APIs zum Erstellen, Bearbeiten, Konvertieren und Rendern von Excel-Dateien. Exportieren Sie Blätter in mehrere Formate auf jeder Plattform."
     },
     "desc-Aspose.PDF Product Family": {
       "other": "Native APIs zum Generieren, Bearbeiten, Komprimieren, Sichern oder Konvertieren von PDF-Dateien in mehrere Formate ohne Adobe Acrobat."
@@ -94,7 +94,7 @@
       "other": "oder"
     },
     "getall": {
-      "other": "Holen Sie sich alle Plattformen in einem Familienpaket ab"
+      "other": "Holen Sie sich alle Plattformen ab"
     },
     "select": {
       "other": "Familienpaket auswählen"
