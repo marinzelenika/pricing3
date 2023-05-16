@@ -2,11 +2,14 @@
 Name: "Simplify Your File Management with Aspose: A Guide to Purchasing an API"
 date: 2023-04-15
 description: "Improve your file management experience with Aspose. Our guide to purchasing an API simplifies the process and automates your document workflows."
+draft: false
 categories: "articles"
 weight: 1
 ---
 
 Managing files can be a daunting task, especially when dealing with a large volume of documents. As your business grows, so does the need for a better file management system. That's where Aspose comes in. Aspose provides a range of file management tools that can help simplify the process and increase efficiency. In this article, we will discuss how to purchase an API from Aspose to improve your file management experience.
+
+![Purchase Aspose API](/Shopping.png)
 
 ## What is Aspose?
 
@@ -44,6 +47,8 @@ Purchasing an API from Aspose is a straightforward process. Here are the steps y
 3. Add the product to your cart and proceed to checkout. You will need to provide your billing and payment information to complete the purchase.
 
 4. Download the API and start using it. Aspose provides comprehensive documentation, code samples, and support to help you get started quickly.
+
+![Pay API with Stripe](/Stripe_payments.png?w=100)
 
 ## Conclusion
 
