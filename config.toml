@@ -1,4 +1,4 @@
-baseURL = 'https://pricingtest2.netlify.app/pricing/'
+baseURL = 'https://pricingtest2.netlify.app/'
 languageCode = 'en-us'
 title = 'aspose.com pricing information'
 theme = 'pricing'
