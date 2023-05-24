@@ -9,6 +9,8 @@ weight: 3
 
 In today's business world, data is everything. Whether it is financial reports, customer data, or marketing strategies, every organization has a plethora of data to manage. However, data is only useful if it can be accessed and processed efficiently. This is where file format APIs come into play. These APIs allow businesses to access, modify, and convert different file formats with ease. But how do you choose the right file format API for your business needs? In this article, we will guide you through the process of selecting the right file format API for your business needs, and we will specifically explore the Aspose API.
 
+{{< image src="File Format API.png" >}}
+
 ## What is a File Format API?
 
 A File Format API is a software interface that allows developers to access, manipulate, and modify different file formats. These APIs can read and write data in a wide range of formats, such as Microsoft Office formats (Word, Excel, PowerPoint), PDF, HTML, EPUB, and more. File format APIs provide an easy and efficient way to automate document-related tasks, such as merging, splitting, converting, and watermarking.
@@ -58,7 +60,7 @@ The Aspose API offers flexible pricing options to suit your business needs. The 
 ### How to Use the Aspose API
 Using the Aspose API is straightforward. Here is a simple example of how to convert a Word document to PDF using the Aspose API in .NET:
 
-```
+```C
 using Aspose.Words;
 using Aspose.Words.Saving;
 

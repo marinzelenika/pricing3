@@ -2,12 +2,15 @@
 Name: "Aspose File Format API: A User's Guide to Getting Started"
 date: 2023-04-26
 description: "Learn how to get started with Aspose File Format API, a comprehensive tool for working with Microsoft Word, Excel, PowerPoint, PDF, and more."
+draft: false
 categories: "articles"
 weight: 8
 ---
 
 ## Introduction
-If you're looking for a powerful and easy-to-use file format API, Aspose has got you covered. With its comprehensive range of features and intuitive user interface, Aspose makes it easy to work with a variety of file formats, including Microsoft Word, Excel, PowerPoint, PDF, and many more.
+If you're looking for a powerful and easy-to-use file format API, [Aspose](https://www.aspose.com/) has got you covered. With its comprehensive range of features and intuitive user interface, Aspose makes it easy to work with a variety of file formats, including Microsoft Word, Excel, PowerPoint, PDF, and many more.
+
+{{< image src="Getting Started with Aspose.png" >}}
 
 In this article, we'll take a closer look at Aspose File Format API and show you how to get started using it.
 
@@ -35,7 +38,7 @@ To give you an idea of just how powerful Aspose can be, let's take a look at a f
 ### Example 1: Converting Word Documents to PDF
 Suppose you need to convert a Word document to PDF. With Aspose, this is a breeze. Simply use the following code:
 
-```c#
+```C
 Document doc = new Document("input.docx");
 doc.Save("output.pdf", SaveFormat.Pdf);
 ```
@@ -45,7 +48,7 @@ That's it! With just a few lines of code, you can convert a Word document to PDF
 ### Example 2: Adding Watermarks to PDFs
 Suppose you need to add a watermark to a PDF. With Aspose, this is easy. Simply use the following code:
 
-```c#
+```C
 Document doc = new Document("input.pdf");
 TextStamp stamp = new TextStamp("Confidential");
 doc.Pages[1].AddStamp(stamp);

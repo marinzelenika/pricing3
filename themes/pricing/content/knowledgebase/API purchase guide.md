@@ -9,7 +9,7 @@ weight: 1
 
 Managing files can be a daunting task, especially when dealing with a large volume of documents. As your business grows, so does the need for a better file management system. That's where Aspose comes in. Aspose provides a range of file management tools that can help simplify the process and increase efficiency. In this article, we will discuss how to purchase an API from Aspose to improve your file management experience.
 
-{{< image src="Shopping.png" >}}
+{{< image src="Purchase API.png" >}}
 
 ## What is Aspose?
 
@@ -48,7 +48,7 @@ Purchasing an API from Aspose is a straightforward process. Here are the steps y
 
 4. Download the API and start using it. Aspose provides comprehensive documentation, code samples, and support to help you get started quickly.
 
-{{< image src="Stripe_payments.png" >}}
+{{< image src="Stripe payments.png" >}}
 
 ## Conclusion
 

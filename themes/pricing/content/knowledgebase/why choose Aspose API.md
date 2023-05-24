@@ -9,6 +9,8 @@ weight: 2
 
 Aspose is a leading company that specializes in providing file format APIs for developers. Aspose APIs offer numerous benefits and advantages, making them an increasingly popular choice among developers. In this article, we will discuss why Aspose APIs are a preferred choice for developers and how they can streamline file-processing workflows.
 
+{{< image src="Why Aspose API.png" >}}
+
 ## Ease of Use: Simplifying the Integration Process
 
 Aspose APIs are designed to be simple and intuitive, allowing developers to integrate them into their applications without spending a significant amount of time learning how to use them. The API documentation includes extensive examples and tutorials that make it easy for developers to get started.
