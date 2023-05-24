@@ -272,6 +272,9 @@
     },
     "metered": {
       "other": "Gemessen"
+    },
+    "get-temp-lic": {
+      "other": "Holen Sie sich eine temporäre Lizenz"
     }
   }
 ]

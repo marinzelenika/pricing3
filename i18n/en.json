@@ -272,6 +272,9 @@
     },
     "metered": {
       "other": "Metered"
+    },
+    "get-temp-lic": {
+      "other": "Get a temporary license"
     }
   }
 ]

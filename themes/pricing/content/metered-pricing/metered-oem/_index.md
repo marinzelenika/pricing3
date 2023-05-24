@@ -1,6 +1,6 @@
 ---
 Name: "Pricing - Metered OEM"
-Description: "A Metered OEM license allows an unlimited number of developers from your organisation to create an unlimited number of end user software using the product which can be used at an unlimited number of physical locations (distinct address or office building) within or outside of your organization."
+Description: "A Metered OEM license allows an unlimited number of developers from your organisation to create an unlimited number of end user software using the product which can be used at an unlimited number of physical locations (distinct address or office building) within or outside of your organization."  
 ---
 {{< start-code >}}
 {{< row-start >}}

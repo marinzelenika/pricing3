@@ -9,5 +9,8 @@ outputs:
   - json
 params:
   file_format: json
+caches:
+  getresource:
+    maxAge: 1h
 
 

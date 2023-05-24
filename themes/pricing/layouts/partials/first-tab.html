@@ -15,9 +15,9 @@
     <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12">
       <div class="card text-center product-card">
         <div class="card-body">
-          <h5 class="card-title plan-title"><strong>{{ index $onlyName 0 }}</strong></h5>
-          {{ if eq .Site.LanguageCode "en" }}
-          <p style="font-size: x-small; color: grey;">{{ .LicenseNote }}</p>
+          <h5 class="card-title"><strong>{{ index $onlyName 0 }}</strong></h5>
+          {{ if eq $.Site.LanguageCode "en" }}
+          <p style="font-size: x-small; color: grey;" class="license-note">{{ .LicenseNote }}</p>
           {{ end }}
           {{ range .PaymentScheduleList }}
           <h3 style="margin-bottom: 3px">${{ .SubscriptionPeriodCharge }}</h3>
@@ -442,9 +442,6 @@
     .comp-table__columnGroupSection .comp-table__tableData{
         text-align:center;
         font-size:1rem!important
-    }
-    .comp-table__recommendedText{
-        /*font-size:.8rem!important*/
     }
     .comparisonTableContainer .comp-table__tableData:not([scope="colgroup"]){
         min-width:80px!important;
