@@ -20,21 +20,21 @@ The Aspose API provides a simple method for merging PDF files, allowing you to c
 
 To merge two or more PDF files using Python and the Aspose API, you can use the following code:
 
-```
-import aspose.words as aw
+```python
+    import aspose.words as aw
 
-fileNames = [ "Input1.pdf", "Input2.pdf" ]
+    fileNames = [ "Input1.pdf", "Input2.pdf" ]
 
-output = aw.Document()
-# Remove all content from the destination document before appending.
-output.remove_all_children()
+    output = aw.Document()
+    # Remove all content from the destination document before appending.
+    output.remove_all_children()
 
-for fileName in fileNames:
-    input = aw.Document(fileName)
-    # Append the source document to the end of the destination document.
-    output.append_document(input, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
+    for fileName in fileNames:
+        input = aw.Document(fileName)
+        # Append the source document to the end of the destination document.
+        output.append_document(input, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
 
-output.save("Output.pdf");
+    output.save("Output.pdf");
 ```
 
 ## How to Merge Multiple PDF Documents Using Python

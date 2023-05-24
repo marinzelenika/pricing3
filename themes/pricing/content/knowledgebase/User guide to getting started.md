@@ -35,7 +35,7 @@ To give you an idea of just how powerful Aspose can be, let's take a look at a f
 ### Example 1: Converting Word Documents to PDF
 Suppose you need to convert a Word document to PDF. With Aspose, this is a breeze. Simply use the following code:
 
-```
+```c#
 Document doc = new Document("input.docx");
 doc.Save("output.pdf", SaveFormat.Pdf);
 ```
@@ -45,7 +45,7 @@ That's it! With just a few lines of code, you can convert a Word document to PDF
 ### Example 2: Adding Watermarks to PDFs
 Suppose you need to add a watermark to a PDF. With Aspose, this is easy. Simply use the following code:
 
-```
+```c#
 Document doc = new Document("input.pdf");
 TextStamp stamp = new TextStamp("Confidential");
 doc.Pages[1].AddStamp(stamp);
