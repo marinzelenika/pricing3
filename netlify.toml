@@ -1,5 +1,5 @@
 [build]
-  command = "cd prebuild && hugo --gc && cd .. && hugo --gc"
+  command = "cd prebuild && hugo --cleanDestinationDir && cd .. && hugo --cleanDestinationDir"
   publish = "public"
 
 [build.environment]
