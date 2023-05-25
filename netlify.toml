@@ -1,5 +1,5 @@
 [build]
-  command = "cd prebuild && hugo --ignoreCache && cd .. && hugo --ignoreCache"
+  command = "cd prebuild && hugo --gc && cd .. && hugo --gc"
   publish = "public"
 
 [build.environment]
