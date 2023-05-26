@@ -25,7 +25,7 @@
           {{ i18n "from" . }}
           <h3 style="margin: 0">${{ .SubscriptionPeriodCharge }}/{{ i18n "month" . }}</h3>
           {{ end }}
-          <p style="font-size: small">{{ i18n "with-free-support" . }}</p>
+          <p style="font-size: small"><a href="https://forum.aspose.com">{{ i18n "with-free-support" . }}</a></p>
           {{ $linkUrl := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId }}
           <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrl }}"
@@ -46,7 +46,7 @@
         {{ i18n "from" . }}
         <h3 style="margin: 0;">${{ $SubCharges }}/{{ i18n "month" . }}</h3>
         <p style="margin: 0; color: green; font-size:medium">+{{ .SubscriptionPeriodCharge }}/{{ i18n "year" . }} </p>
-        <p style="font-size: small;">{{ i18n "with-paid-support" . }}</p>
+        <p style="font-size: small;"><a href="https://helpdesk.aspose.com">{{ i18n "with-paid-support" . }}</a></p>
         {{ $linkUrlwPaidSupport := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidSupport=true" }}
         <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}"
@@ -62,7 +62,7 @@
     <p style="color: green; font-size: large; margin: 0;">+$5999</p>
     <p style="font-size: x-small; color: grey; margin: 0; margin-left: .3em;">{{ i18n "per-developer-per-month" . }}</p>
     </div>
-    <p style="font-size: small">{{ i18n "with-paid-consulting" . }}</p>
+    <p style="font-size: small"><a href="https://consulting.aspose.com">{{ i18n "with-paid-consulting" . }}</a></p>
     {{ $linkUrlwPaidConsulting := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidConsulting=true" }}
         <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}"
