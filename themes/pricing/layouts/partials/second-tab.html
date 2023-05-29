@@ -28,7 +28,7 @@
           <p style="font-size: small"><a href="https://forum.aspose.com">{{ i18n "with-free-support" . }}</a></p>
           {{ $linkUrl := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId }}
-          <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrl }}"
+          <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrl }}" target="_blank"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
           <hr />
@@ -49,7 +49,7 @@
         <p style="font-size: small;"><a href="https://helpdesk.aspose.com">{{ i18n "with-paid-support" . }}</a></p>
         {{ $linkUrlwPaidSupport := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidSupport=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}"
+        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}" target="_blank"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
           <hr />
@@ -65,7 +65,7 @@
     <p style="font-size: small"><a href="https://consulting.aspose.com">{{ i18n "with-paid-consulting" . }}</a></p>
     {{ $linkUrlwPaidConsulting := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidConsulting=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}"
+        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}" target="_blank"
             ><span style="margin: auto">{{ i18n "select-only" . }}</span></a
           >
 
