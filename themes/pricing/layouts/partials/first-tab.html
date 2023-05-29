@@ -47,8 +47,8 @@
         <p style="font-size: small;"><a href="https://helpdesk.aspose.com">{{ i18n "with-paid-support" . }}</a></p>
         {{ $linkUrlwPaidSupport := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidSupport=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}"
-            ><span style="margin-top: 2px">{{ i18n "select-only" . }}</span></a
+        <a class="btn btn-primary btn-lg fam-pack-btn1 add-to-cart d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidSupport }}"
+            ><span>{{ i18n "select-only" . }}</span></a
           >
           <hr />
         {{ end }}{{ end }}{{ end }}{{ end }}{{ end }}{{ end }}
@@ -61,8 +61,8 @@
     <p style="font-size: small"><a href="https://consulting.aspose.com">{{ i18n "with-paid-consulting" . }}</a></p>
     {{ $linkUrlwPaidConsulting := print "https://purchase.aspose.com/buy/cart?ppId=" ""
           $ppId "&paidConsulting=true" }}
-        <a class="btn btn-primary btn-lg fam-pack-btn1 d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}"
-            ><span style="margin-top: 2px">{{ i18n "select-only" . }}</span></a
+        <a class="btn btn-primary btn-lg fam-pack-btn1 add-to-cart d-flex justify-content-center align-items-center" href="{{ $linkUrlwPaidConsulting }}"
+            ><span>{{ i18n "select-only" . }}</span></a
           >
     {{ end }}
             
