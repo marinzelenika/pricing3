@@ -1,4 +1,4 @@
-baseURL = 'https://pricingtest2.netlify.app/pricing'
+baseURL = 'https://pricingtest2.netlify.app'
 languageCode = 'en-us'
 title = 'Pricing information | aspose.com'
 theme = 'pricing'
@@ -14,6 +14,10 @@ draft = "false"
     target = 'content'
     lang = 'de'
   [[module.mounts]]
+    source = 'prebuild/public/product'
+    target = 'content'
+    lang = 'zh'
+  [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'en'
@@ -21,6 +25,10 @@ draft = "false"
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'de'
+    [[module.mounts]]
+    source = 'themes/pricing/content'
+    target = 'content'
+    lang = 'zh'
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
@@ -39,6 +47,7 @@ draft = "false"
 [params.dynamicmenuid]
   en = "aspose-en"
   de = "aspose-de"
+  zh = "aspose-zh"
 
 defaultContentLanguage = 'en'
 [languages]
@@ -46,9 +55,14 @@ defaultContentLanguage = 'en'
     languageName = 'Deutsch'
     languageCode = "de"
     flag = "flag-de"
-    weight = 2
+    weight = 3
   [languages.en]
     languageName = 'English'
     flag = "flag-us"
     languageCode = "en"
+    weight = 2
+  [languages.zh]
+    languageName = '中国人'
+    flag = "flag-zh"
+    languageCode = "zh"
     weight = 1
