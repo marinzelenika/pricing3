@@ -1,0 +1,280 @@
+[
+    {
+      "desc-Aspose.Total Product Family": {
+        "other": ".NET、Java、C++などのネイティブAPIを使用して、Word、Excel、PDF、その他100以上のファイル形式を操作します。"
+      },
+      "desc-Aspose.Words Product Family": {
+        "other": "任意のデスクトップ、ウェブ、モバイルアプリケーションからWordドキュメントを作成、編集、変換、印刷するためのネイティブAPI。"
+      },
+      "desc-Aspose.Cells Product Family": {
+        "other": "Excelファイルを作成、編集、変換、レンダリングするためのネイティブAPI。任意のプラットフォームでスプレッドシートを複数の形式にエクスポートします。"
+      },
+      "desc-Aspose.PDF Product Family": {
+        "other": "Adobe AcrobatなしでPDFファイルを生成、操作、圧縮、保護、または複数の形式に変換するネイティブAPI。"
+      },
+      "desc-Aspose.Slides Product Family": {
+        "other": ".NET、Java、C++＆Android用のネイティブAPIで、PowerPointプレゼンテーション＆スライドを生成、管理、変換します。"
+      },
+      "desc-Aspose.Email Product Family": {
+        "other": "Outlookのメールとストレージファイルを作成、操作、変換するネイティブAPI。SMTP、POP3、IMAPなどのネットワークプロトコルを実装します。"
+      },
+      "desc-Aspose.BarCode Product Family": {
+        "other": "1D、2D、郵便バーコードラベルを作成およびスキャンできる高性能アプリを開発します。"
+      },
+      "desc-Aspose.Imaging Product Family": {
+        "other": "イメージを描画、操作、変形、変換するネイティブAPI。"
+      },
+      "desc-Aspose.HTML Product Family": {
+        "other": "HTMLページを生成、読み取り、編集するネイティブAPI。CSSスタイルを含む、PDFや複数のイメージ形式に変換します。"
+      },
+      "desc-Aspose.Tasks Product Family": {
+        "other": ".NET、Java、C++用のネイティブAPIで、Microsoft Projectファイルを作成、編集、変換します。"
+      },
+      "desc-Aspose.Diagram Product Family": {
+        "other": ".NET＆Java APIで任意のプラットフォーム上でMicrosoft Visioファイルを作成、編集、変換します。"
+      },
+      "desc-Aspose.OCR Product Family": {
+        "other": ".NET、Java、C++のネイティブAPIを使用して、自分のアプリケーションにOCR機能を追加します。"
+      },
+      "desc-Aspose.Note Product Family": {
+        "other": "Microsoft OneNoteドキュメントを作成、編集、変換するための.NET＆JavaネイティブAPI。"
+      },
+      "desc-Aspose.CAD Product Family": {
+        "other": "AutoCAD DWG＆DXF図面をPDF＆ラスターイメージに変換するための.NET＆JavaネイティブAPI。"
+      },
+      "desc-Aspose.ZIP Product Family": {
+        "other": ".NET APIを介してファイルを圧縮または解凍したり、既存のアーカイブを修正します。"
+      },
+      "desc-Aspose.3D Product Family": {
+        "other": "任意の3Dモデリングまたはレンダリングソフトウェアなしで3Dドキュメント形式を読み取り、編集、変換するネイティブAPI。"
+      },
+      "desc-Aspose.GIS Product Family": {
+        "other": "任意のプラットフォームでGISベースのマッピングと位置情報アプリケーションを構築するためのネイティブAPI。"
+      },
+      "desc-Aspose.PSD Product Family": {
+        "other": ".NET＆Java APIで、Adobe PhotoshopおよびAdobe Illustratorファイルを作成、編集、変換します。"
+      },
+      "desc-Aspose.Page Product Family": {
+        "other": "XPSファイルを作成および操作するためのネイティブAPI。XPS、PS、EPSファイルを任意のプラットフォーム上でPDFおよびラスターイメージに変換します。"
+      },
+      "desc-Aspose.SVG Product Family": {
+        "other": "SVGファイルをロード、保存、変換するネイティブ.NET API。ソフトウェア依存性はありません。"
+      },
+      "desc-Aspose.PUB Product Family": {
+        "other": "PUBファイルをPDFに変換するネイティブ.NET API。ソフトウェア依存性はありません。"
+      },
+      "desc-Aspose.OMR Product Family": {
+        "other": "BMP、JPG、TIF、TIFF、GIFなどのさまざまなイメージ形式のスキャンドキュメントと写真を認識するネイティブAPI。"
+      },
+      "desc-Aspose.Finance Product Family": {
+        "other": "XBRL、iXBRLなどの金融関連形式を操作するネイティブ.NET API。ソフトウェア依存性はありません。"
+      },
+      "desc-Aspose.Drawing Product Family": {
+        "other": "ベクターグラフィックスとテキストをレンダリングする2D描画を解析するネイティブAPI。ソフトウェア依存性はありません。"
+      },
+      "desc-Aspose.Font Product Family": {
+        "other": "複数のフォントをロード、描画、保存するネイティブAPI。ソフトウェア依存性はありません。"
+      },
+      "desc-Aspose.TeX Product Family": {
+        "other": "TeXファイルを組版するためのネイティブAPI。"
+      },
+      "only-supported": {
+        "other": "この製品は現在.NETプラットフォームのみでサポートされているため、ファミリーパックは利用できません。"
+      },
+      "from": {
+        "other": "から"
+      },
+      "per": {
+        "other": "プラットフォームごと、年ごとに"
+      },
+      "choose-platform": {
+        "other": "プラットフォームを選択"
+      },
+      "or": {
+        "other": "または"
+      },
+      "getall": {
+        "other": "ファミリーパックを購入してすべてのプラットフォームを手に入れる、開始は"
+      },
+      "select": {
+        "other": "ファミリーパックを選択"
+      },
+      "family": {
+        "other": "ファミリー"
+      },
+      "pricing-info": {
+        "other": "価格情報"
+      },
+      "pricing": {
+        "other": "価格設定"
+      },
+      "home-description": {
+        "other": "あなたのアプリケーションがWord、Excel、PDF、PowerPoint、その他100以上のファイル形式を操作できるようにします。全ての主要プラットフォーム対応。"
+      },
+      "estimate": {
+        "other": "私たちの"
+      },
+      "simulator": {
+        "other": "シミュレーター"
+      },
+      "with-free-support": {
+        "other": "無料サポート付き"
+      },
+      "with-paid-support": {
+        "other": "有料サポート付き"
+      },
+      "select-only": {
+        "other": "選択"
+      },
+      "per-developer-per-month": {
+        "other": "開発者ごと、月ごとに"
+      },
+      "with-paid-consulting": {
+        "other": "有料コンサルティング付き"
+      },
+      "month": {
+        "other": "月"
+      },
+      "year": {
+        "other": "年"
+      },
+      "developers-licensed": {
+        "other": "ライセンス認証済み開発者"
+      },
+      "derived-work": {
+        "other": "派生した作業の使用場所"
+      },
+      "enterprise-deployment": {
+        "other": "エンタープライズの展開"
+      },
+      "unlimited-servers": {
+        "other": "無制限のサーバーに展開"
+      },
+      "use-with-web-sites": {
+        "other": "ウェブサイト/アプリケーションでの使用"
+      },
+      "external-distribution": {
+        "other": "外部配布を許可"
+      },
+      "royalty-free": {
+        "other": "ロイヤルティフリー"
+      },
+      "use-in-a": {
+        "other": "開発ライブラリ、APIまたはSDKでの使用"
+      },
+      "license-type": {
+        "other": "ライセンスの種類"
+      },
+      "perpetual": {
+        "other": "永続的"
+      },
+      "updates-and-hotfixes": {
+        "other": "1年間のアップデートとホットフィックス"
+      },
+      "can-be-used": {
+        "other": "無制限のアプリケーションを作成するために使用できます"
+      },
+      "discount-applied": {
+        "other": "複数購入に対する割引適用"
+      },
+      "technical-support": {
+        "other": "無料の技術サポート"
+      },
+      "note": {
+        "other": "注：すべての価格は"
+      },
+      "help-me-choose": {
+        "other": "正しいライセンスタイプを選ぶのを手伝って"
+      },
+      "pay-per-use": {
+        "other": "使用ごとに支払う"
+      },
+      "yearly": {
+        "other": "年間"
+      },
+      "expl1": {
+        "other": "開発者：開発者は、ソフトウェア開発者、システム管理者、レポート作成者など、製品を使用する人物を指します。 Aspose製品を使用する各開発者はライセンスを取得する必要があります。"
+      },
+      "expl2": {
+        "other": "場所：場所とは、派生した作業が使用される物理的な場所であり、組織内外の各異なる住所やオフィスビルを指します。派生した作業：ソフトウェアプログラム、サイト、レポートビルダー、Aspose製品を組み込んだり使用したりする他のソリューション、作業、製品。"
+      },
+      "expl3": {
+        "other": "派生した作品を無制限の数の物理的または仮想サーバー、無制限の数の物理的場所（異なる住所またはオフィスビル）に配布することを許可します。派生した作業：ソフトウェアプログラム、サイト、レポートビルダー、Aspose製品を組み込んだり使用したりする他のソリューション、作業、製品。"
+      },
+      "expl4": {
+        "other": "製品を一つの企業（会社）内で一つのアプリデプロイメントで使用することを許可します。"
+      },
+      "expl5": {
+        "other": "派生した作品を公開向けのウェブサイト/アプリケーション、エクストラネット、マルチサイトのイントラネット、またはSaaSプロジェクトの使用シナリオに配布することを許可します。"
+      },
+      "expl6": {
+        "other": "派生した作品を第三者（例えば他人に販売するソフトウェアに組み込むなど）に配布することを許可します。"
+      },
+      "expl7": {
+        "other": "使用ごと、各コピーごと、または販売量ごとのロイヤルティまたはライセンス料を支払う必要なく、ライセンスを使用します。"
+      },
+      "expl8": {
+        "other": "他の開発者が使用するAPIを持つソフトウェアを作成する場合、これが適用されます。"
+      },
+      "expl9": {
+        "other": "永続的：製品の使用ライセンスは有効期限がありません。使用料金制：製品の使用毎にロイヤルティを支払います。"
+      },
+      "expl10": {
+        "other": "購入には、製品の更新を1年間受ける権利を含むサブスクリプションが含まれています。1年が経過しても、製品の使用ライセンスは継続されるため、Asposeを使用する既存のアプリケーションは引き続き機能します。ただし、製品のさらなる更新をダウンロードして使用するには、まずサブスクリプションを更新する必要があります。注：これはメータードライセンスには適用されません。メータードライセンスは常に最新の状態です。"
+      },
+      "expl11": {
+        "other": "Aspose製品で作成するアプリケーションの数に制限はありません。"
+      },
+      "expl12": {
+        "other": "Aspose製品で作成するアプリケーションの数に制限はありません。"
+      },
+      "expl13": {
+        "other": "複数のライセンスを購入して割引を受けます。メータードライセンスには、追加の開発者を増やしてもコストが増えない内蔵の割引が含まれています。"
+      },
+      "expl14": {
+        "other": "購入前やメンテナンスサブスクリプションが切れても無料の技術サポートを受けることができます。優先サポートが必要な場合は、有料のサポートオプションをご覧ください。"
+      },
+      "expl15": {
+        "other": "これはメータードライセンスには適用されません。メータードライセンスは常に最新の状態です。"
+      },
+      "total-credits": {
+        "other": "総クレジット"
+      },
+      "rate-credit": {
+        "other": "レート/クレジット"
+      },
+      "price-month": {
+        "other": "価格/月"
+      },
+      "to": {
+        "other": "へ"
+      },
+      "flat-rate": {
+        "other": "一律料金"
+      },
+      "next": {
+        "other": "次"
+      },
+      "fixed": {
+        "other": "固定"
+      },
+      "any-additional": {
+        "other": "追加分"
+      },
+      "calculate": {
+        "other": "計算する"
+      },
+      "processed-credits": {
+        "other": "処理済みクレジット合計"
+      },
+      "total-price": {
+        "other": "合計価格"
+      },
+      "metered": {
+        "other": "メーター制"
+      },
+      "get-temp-lic": {
+        "other": "一時ライセンスを取得する"
+      }
+    }
+]

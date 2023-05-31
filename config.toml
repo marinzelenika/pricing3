@@ -18,6 +18,10 @@ draft = "false"
     target = 'content'
     lang = 'zh'
   [[module.mounts]]
+    source = 'prebuild/public/product'
+    target = 'content'
+    lang = 'ja'
+  [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'en'
@@ -25,10 +29,14 @@ draft = "false"
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'de'
-    [[module.mounts]]
+  [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'zh'
+  [[module.mounts]]
+    source = 'themes/pricing/content'
+    target = 'content'
+    lang = 'ja'
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
@@ -48,6 +56,7 @@ draft = "false"
   en = "aspose-en"
   de = "aspose-de"
   zh = "aspose-zh"
+  ja = "aspose-ja"
 
 defaultContentLanguage = 'en'
 [languages]
@@ -55,14 +64,19 @@ defaultContentLanguage = 'en'
     languageName = 'Deutsch'
     languageCode = "de"
     flag = "flag-de"
-    weight = 3
+    weight = 4
   [languages.en]
     languageName = 'English'
     flag = "flag-us"
     languageCode = "en"
-    weight = 2
+    weight = 3
   [languages.zh]
-    languageName = '中国人'
+    languageName = '简体中文'
     flag = "flag-zh"
     languageCode = "zh"
     weight = 1
+  [languages.ja]
+    languageName = '日本語'
+    flag = "flag-ja"
+    languageCode = "ja"
+    weight = 2
