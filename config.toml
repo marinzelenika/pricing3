@@ -24,7 +24,7 @@ draft = "false"
   [[module.mounts]]
     source = 'prebuild/public/product'
     target = 'content'
-    lang = 'rus'
+    lang = 'ru'
   [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
@@ -44,7 +44,7 @@ draft = "false"
   [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
-    lang = 'rus'
+    lang = 'ru'
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
@@ -65,7 +65,7 @@ draft = "false"
   de = "aspose-de"
   zh = "aspose-zh"
   ja = "aspose-ja"
-  ru = "aspose-rus"
+  ru = "aspose-ru"
 
 defaultContentLanguage = 'en'
 [languages]
@@ -91,6 +91,6 @@ defaultContentLanguage = 'en'
     weight = 2
   [languages.ru]
     languageName = 'Русский'
-    flag = "flag-rus"
-    languageCode = "rus"
+    flag = "flag-ru"
+    languageCode = "ru"
     weight = 5
