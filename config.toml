@@ -90,7 +90,7 @@ defaultContentLanguage = 'en'
     languageCode = "ja"
     weight = 2
   [languages.ru]
-    languageName = '日本語'
+    languageName = 'Русский'
     flag = "flag-ru"
     languageCode = "ru"
     weight = 5
