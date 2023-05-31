@@ -30,6 +30,10 @@ draft = "false"
     target = 'content'
     lang = 'it'
   [[module.mounts]]
+    source = 'prebuild/public/product'
+    target = 'content'
+    lang = 'es'
+  [[module.mounts]]
     source = 'themes/pricing/content'
     target = 'content'
     lang = 'en'
@@ -54,6 +58,10 @@ draft = "false"
     target = 'content'
     lang = 'it'
   [[module.mounts]]
+    source = 'themes/pricing/content'
+    target = 'content'
+    lang = 'es'
+  [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
   [[module.mounts]]
@@ -75,6 +83,7 @@ draft = "false"
   ja = "aspose-ja"
   ru = "aspose-ru"
   it = "aspose-it"
+  es = "aspose-es"
 
 defaultContentLanguage = 'en'
 [languages]
@@ -108,3 +117,8 @@ defaultContentLanguage = 'en'
     flag = "flag-it"
     languageCode = "it"
     weight = 6
+  [languages.es]
+    languageName = 'Español'
+    flag = "flag-es"
+    languageCode = "es"
+    weight = 7
