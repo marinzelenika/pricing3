@@ -57,7 +57,7 @@
 
     {{ end }}{{ end }}{{ end }}
     {{ i18n "from" . }}
-    <h3 style="margin: 0;">${{ .SubscriptionPeriodCharge }}</h3>
+    <h3 style="margin: 0;">${{ .SubscriptionPeriodCharge }}/{{ i18n "month" . }}</h3>
     <div class="wrapper">
     <p style="color: green; font-size: large; margin: 0;">+$5999</p>
     <p style="font-size: x-small; color: grey; margin: 0; margin-left: .3em;">{{ i18n "per-developer-per-month" . }}</p>
