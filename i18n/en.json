@@ -78,6 +78,9 @@
     "desc-Aspose.TeX Product Family": {
       "other": "Native APIs to typeset TeX files."
     },
+    "jump-to": {
+      "other": "Jump to"
+    },
     "only-supported": {
       "other": "This product is currently only supported for the .NET platform and therefore no family pack is available."
     },
