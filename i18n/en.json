@@ -81,6 +81,9 @@
     "jump-to": {
       "other": "Jump to"
     },
+    "visit-product-page": {
+      "other": "Visit Product Page"
+    },
     "only-supported": {
       "other": "This product is currently only supported for the .NET platform and therefore no family pack is available."
     },
