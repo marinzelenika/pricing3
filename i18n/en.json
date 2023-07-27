@@ -84,6 +84,18 @@
     "visit-product-page": {
       "other": "Visit Product Page"
     },
+    "paid-support-note": {
+      "other": "Paid Support subscription is purchased as a separate product and is not a part of product license."
+    },
+    "paid-consulting-note": {
+      "other": "GroupDocs Paid Consulting is an efficient and safe way to outsource your software project and get your business to the next level."
+    },
+    "paid-support": {
+      "other": "Add Paid Support"
+    },
+    "paid-consulting": {
+      "other": "Add Paid Consulting"
+    },
     "only-supported": {
       "other": "This product is currently only supported for the .NET platform and therefore no family pack is available."
     },

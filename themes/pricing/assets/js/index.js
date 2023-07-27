@@ -10,6 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+const tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+const tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
+
 var cardElements = document.getElementsByClassName("card");
 var limit = 130;
 
@@ -34,4 +41,60 @@ if (window.innerWidth < 400) {
     }
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var supportCheckboxes = document.querySelectorAll("[id^='checkSupport_']");
+  var consultingCheckboxes = document.querySelectorAll(
+    "[id^='checkConsulting_']"
+  );
+
+  function updateLinkHref(ppId) {
+    var supportCheckbox = document.getElementById("checkSupport_" + ppId);
+    var consultingCheckbox = document.getElementById("checkConsulting_" + ppId);
+    var basePrice = parseFloat(supportCheckbox.getAttribute("data-base-price"));
+    var supportPrice = parseFloat(
+      supportCheckbox.getAttribute("data-support-price")
+    );
+    var link = document.getElementById("myLink_" + ppId);
+    var totalPriceElement = document.getElementById("totalPrice_" + ppId);
+    var baseHref = "https://purchase.groupdocs.com/buy/cart?ppId=" + ppId;
+
+    var totalPrice = basePrice;
+
+    if (supportCheckbox.checked) {
+      baseHref += "&paidSupport=true";
+      totalPrice += supportPrice;
+    }
+
+    if (consultingCheckbox.checked) {
+      baseHref += "&paidConsulting=true";
+      totalPrice += 5999;
+    }
+
+    link.href = baseHref;
+    totalPriceElement.innerText = totalPrice.toFixed(2); // Display the price with 2 decimal places
+  }
+
+  supportCheckboxes.forEach(function (checkbox) {
+    checkbox.addEventListener("change", function () {
+      updateLinkHref(checkbox.getAttribute("data-pp-id"));
+    });
+
+    // Call updateLinkHref() to set the initial href and price
+    updateLinkHref(checkbox.getAttribute("data-pp-id"));
+  });
+
+  consultingCheckboxes.forEach(function (checkbox) {
+    checkbox.addEventListener("change", function () {
+      updateLinkHref(checkbox.getAttribute("data-pp-id"));
+    });
+
+    // Call updateLinkHref() to set the initial href and price
+    updateLinkHref(checkbox.getAttribute("data-pp-id"));
+  });
+});
+
+
+
+
 
