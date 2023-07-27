@@ -78,6 +78,42 @@
       "desc-Aspose.TeX Product Family": {
         "other": "TeXファイルを組版するためのネイティブAPI。"
       },
+      "note-Developer Small Business": {
+        "other": "開発者1人とデプロイ場所1カ所"
+      },
+      "note-Developer OEM": {
+        "other": "開発者1人と無制限のデプロイ場所"
+      },
+      "note-Site Small Business": {
+        "other": "最大10人の開発者と最大10カ所のデプロイ場所"
+      },
+      "note-Site OEM": {
+        "other": "最大10人の開発者と無制限のデプロイ場所"
+      },
+      "note-Metered Small Business": {
+        "other": "無制限の開発者と使用した分だけ支払い"
+      },
+      "note-Metered OEM": {
+        "other": "無制限の開発者と使用した分だけ支払い"
+      },
+      "learn-more": {
+        "other": "詳しく学ぶ"
+      },
+      "total-price": {
+        "other": "合計価格"
+      },
+      "paid-support-note": {
+        "other": "有料サポートのサブスクリプションは別の製品として購入され、製品ライセンスの一部ではありません。"
+      },
+      "paid-consulting-note": {
+        "other": "GroupDocs有料コンサルティングは、ソフトウェアプロジェクトをアウトソーシングし、ビジネスを次のレベルに進める効率的で安全な方法です。"
+      },
+      "paid-support": {
+        "other": "有料サポートを追加する"
+      },
+      "paid-consulting": {
+        "other": "有料コンサルティングを追加する"
+      },
       "only-supported": {
         "other": "この製品は現在.NETプラットフォームのみでサポートされているため、ファミリーパックは利用できません。"
       },

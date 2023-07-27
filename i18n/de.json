@@ -78,6 +78,42 @@
     "desc-Aspose.TeX Product Family": {
       "other": "Native APIs zum Setzen von TeX-Dateien."
     },
+    "note-Developer Small Business": {
+      "other": "1 Entwickler und 1 Einsatzort"
+    },
+    "note-Developer OEM": {
+      "other": "1 Entwickler und unbegrenzte Einsatzorte"
+    },
+    "note-Site Small Business": {
+      "other": "Bis zu 10 Entwickler und bis zu 10 Einsatzorte"
+    },
+    "note-Site OEM": {
+      "other": "Bis zu 10 Entwickler und unbegrenzte Einsatzorte"
+    },
+    "note-Metered Small Business": {
+      "other": "Unbegrenzte Entwickler und zahlen Sie, wie Sie verwenden"
+    },
+    "note-Metered OEM": {
+      "other": "Unbegrenzte Entwickler und zahlen Sie, wie Sie verwenden"
+    },
+    "learn-more": {
+      "other": "Erfahren Sie mehr"
+    },
+    "total-price": {
+      "other": "Gesamtpreis"
+    },
+    "paid-support-note": {
+      "other": "Die kostenpflichtige Support-Abonnement wird als separates Produkt erworben und ist nicht Teil der Produktlizenz."
+    },
+    "paid-consulting-note": {
+      "other": "GroupDocs Bezahlte Beratung ist ein effizienter und sicherer Weg, um Ihr Softwareprojekt auszulagern und Ihr Geschäft auf die nächste Stufe zu bringen."
+    },
+    "paid-support": {
+      "other": "Kostenpflichtigen Support hinzufügen"
+    },
+    "paid-consulting": {
+      "other": "Bezahlte Beratung hinzufügen"
+    },
     "only-supported": {
       "other": "Dieses Produkt wird derzeit nur für die .NET-Plattform unterstützt, und daher ist kein Familienpaket verfügbar."
     },

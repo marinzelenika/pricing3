@@ -78,23 +78,23 @@
     "desc-Aspose.TeX Product Family": {
       "other": "Native APIs to typeset TeX files."
     },
-    "jump-to": {
-      "other": "Jump to"
+    "note-Developer Small Business": {
+      "other": "1 Developer And 1 Deployment Location"
     },
-    "visit-product-page": {
-      "other": "Visit Product Page"
+    "note-Developer OEM": {
+      "other": "1 Developer And Unlimited Deployment Locations"
     },
-    "paid-support-note": {
-      "other": "Paid Support subscription is purchased as a separate product and is not a part of product license."
+    "note-Site Small Business": {
+      "other": "Up To 10 Developers And Up To 10 Deployment Locations"
     },
-    "paid-consulting-note": {
-      "other": "GroupDocs Paid Consulting is an efficient and safe way to outsource your software project and get your business to the next level."
+    "note-Site OEM": {
+      "other": "Up To 10 Developers And Unlimited Deployment Locations"
     },
-    "paid-support": {
-      "other": "Add Paid Support"
+    "note-Metered Small Business": {
+      "other": "Unlimited Developers And Pay As You Use"
     },
-    "paid-consulting": {
-      "other": "Add Paid Consulting"
+    "note-Metered OEM": {
+      "other": "Unlimited Developers And Pay As You Use"
     },
     "only-supported": {
       "other": "This product is currently only supported for the .NET platform and therefore no family pack is available."
@@ -108,6 +108,27 @@
     "choose-platform": {
       "other": "Choose a platform"
     },
+    "add": {
+      "other": "Add"
+    },
+    "learn-more": {
+      "other": "Learn more"
+    },
+    "total-price": {
+      "other": "Total price"
+    },
+    "paid-support-note": {
+      "other": "Paid Support subscription is purchased as a separate product and is not a part of product license."
+    },
+    "paid-consulting-note": {
+      "other": "GroupDocs Paid Consulting is an efficient and safe way to outsource your software project and get your business to the next level."
+    },
+    "paid-support": {
+      "other": "Add Paid Support"
+    },
+    "paid-consulting": {
+      "other": "Add Paid Consulting"
+    },
     "or": {
       "other": "or"
     },
@@ -115,7 +136,7 @@
       "other": "Get all platforms in a family pack starting from"
     },
     "select": {
-      "other": "Select family pack"
+      "other": "Choose Product Family"
     },
     "family": {
       "other": "Family"
@@ -126,8 +147,23 @@
     "pricing": {
       "other": "Pricing"
     },
+    "visit-product-page": {
+      "other": "Visit Product Page"
+    },
     "home-description": {
-      "other": "Enable your applications to manipulate Word, Excel, PDF, PowerPoint and more than 100 other file formats for all major platforms."
+      "other": "Enhance your web, mobile, or desktop apps with the capability to display, annotate, convert, e-sign, compare and assemble documents."
+    },
+    "jump-to": {
+      "other": "Jump to"
+    },
+    "most-popular": {
+      "other": "Most Popular (Bundle)"
+    },
+    "knowledgebase": {
+      "other": "Knowledgebase"
+    },
+    "read-more": {
+      "other": "Read more..."
     },
     "estimate": {
       "other": "You can estimate monthly costs using our"

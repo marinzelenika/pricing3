@@ -78,6 +78,42 @@
       "desc-Aspose.TeX Product Family": {
         "other": "用于排版TeX文件的原生API。"
       },
+      "note-Developer Small Business": {
+        "other": "1位开发者和1个部署地点"
+      },
+      "note-Developer OEM": {
+        "other": "1位开发者和无限部署地点"
+      },
+      "note-Site Small Business": {
+        "other": "最多10位开发者和最多10个部署地点"
+      },
+      "note-Site OEM": {
+        "other": "最多10位开发者和无限部署地点"
+      },
+      "note-Metered Small Business": {
+        "other": "无限开发者和按使用付费"
+      },
+      "note-Metered OEM": {
+        "other": "无限开发者和按使用付费"
+      },
+      "learn-more": {
+        "other": "了解更多"
+      },
+      "total-price": {
+        "other": "总价"
+      },
+      "paid-support-note": {
+        "other": "付费支持订阅是作为单独产品购买的，并非产品许可的一部分。"
+      },
+      "paid-consulting-note": {
+        "other": "GroupDocs的付费咨询是将您的软件项目外包并提升您业务的有效和安全方式。"
+      },
+      "paid-support": {
+        "other": "添加付费支持"
+      },
+      "paid-consulting": {
+        "other": "添加付费咨询"
+      },
       "only-supported": {
         "other": "该产品目前仅支持.NET平台，因此没有可用的家族包。"
       },

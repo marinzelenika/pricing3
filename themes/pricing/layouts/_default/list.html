@@ -163,12 +163,12 @@ transform.Unmarshal . }}
         {{ else if eq $i 0 }}
         <span style="font-size: x-small; font-style:italic;">{{ i18n "only-supported" }}</span>
         <div class="d-flex justify-content-center">
-                    {{ range $.Site.Pages }}
-            {{ if eq .Params.FamilyId $id }}
+                   {{/*   {{ range $.Site.Pages }}
+            {{ if and (eq .Params.FamilyId $id) (eq .Params.FamilyId 196236) }}
           <a href="{{ .RelPermalink }}" class="btn btn-primary btn-lg fam-pack-btn"
             ><span style="margin: auto">{{ .Params.Name }}</span></a
           >
-          {{ end }}{{ end }}
+          {{ end }}{{ end }}  */}}
         </div>
         {{ end }}
         {{ end }}

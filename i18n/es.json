@@ -78,6 +78,42 @@
       "desc-Aspose.TeX Product Family": {
         "other": "API nativas para componer archivos TeX."
       },
+      "note-Developer Small Business": {
+        "other": "1 Desarrollador y 1 Ubicación de Implementación"
+      },
+      "note-Developer OEM": {
+        "other": "1 Desarrollador y Ubicaciones de Implementación Ilimitadas"
+      },
+      "note-Site Small Business": {
+        "other": "Hasta 10 Desarrolladores y Hasta 10 Ubicaciones de Implementación"
+      },
+      "note-Site OEM": {
+        "other": "Hasta 10 Desarrolladores y Ubicaciones de Implementación Ilimitadas"
+      },
+      "note-Metered Small Business": {
+        "other": "Desarrolladores Ilimitados y Paga Según Consumo"
+      },
+      "note-Metered OEM": {
+        "other": "Desarrolladores Ilimitados y Paga Según Consumo"
+      },
+      "learn-more": {
+        "other": "Aprende más"
+      },
+      "total-price": {
+        "other": "Precio total"
+      },
+      "paid-support-note": {
+        "other": "La suscripción de Soporte de Pago se compra como un producto separado y no es parte de la licencia del producto."
+      },
+      "paid-consulting-note": {
+        "other": "La Consultoría de Pago de GroupDocs es una forma eficiente y segura de externalizar tu proyecto de software y llevar tu negocio al siguiente nivel."
+      },
+      "paid-support": {
+        "other": "Agregar Soporte de Pago"
+      },
+      "paid-consulting": {
+        "other": "Agregar Consultoría de Pago"
+      },
       "only-supported": {
         "other": "Este producto solo está actualmente soportado para la plataforma .NET y por lo tanto no hay paquete familiar disponible."
       },
