@@ -1,4 +1,4 @@
-baseURL = 'https://purchase-qa.aspose.com/pricing.aspose/'
+baseURL = 'https://papaya-monstera-d09c3a.netlify.app/'
 languageCode = 'en-us'
 title = 'Pricing information | aspose.com'
 theme = 'pricing'
