@@ -147,6 +147,21 @@
       "home-description": {
         "other": "あなたのアプリケーションがWord、Excel、PDF、PowerPoint、その他100以上のファイル形式を操作できるようにします。全ての主要プラットフォーム対応。"
       },
+      "visit-product-page": {
+        "other": "製品ページを訪れる"
+      },
+      "jump-to": {
+        "other": "ジャンプする"
+      },
+      "most-popular": {
+        "other": "最も人気のある（バンドル）"
+      },
+      "knowledgebase": {
+        "other": "ナレッジベース"
+      },
+      "read-more": {
+        "other": "もっと読む..."
+      },
       "estimate": {
         "other": "私たちの"
       },

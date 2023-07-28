@@ -23,7 +23,7 @@ transform.Unmarshal . }}
   <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-12 d-flex">
     {{ if eq $q 0 }}
     <div class="card mt-3 mb-3 flex-fill my-special-card" id="{{ .Id }}">
-      <div class="card-flag">Most Popular (Bundle)</div>
+      <div class="card-flag">{{ i18n "most-popular" . }}</div>
       {{ else }}
     <div class="card mt-3 mb-3 flex-fill" id="{{ .Id }}">
       {{ end }}
@@ -183,7 +183,7 @@ transform.Unmarshal . }}
   {{ end }}
 </div>
 {{ end }}{{ end }}{{ end }}{{ end }}
-<h2 class="mt-5">Knowledgebase</h2>
+<h2 class="mt-5">{{ i18n "knowledgebase" . }}</h2>
 {{- range first 4 (where .Site.RegularPages "Type" "knowledgebase") -}}
 <div class="card border-primary mb-3 article-card" onclick="window.location='{{ .RelPermalink }}';">
   <div class="card-body text-primary">
@@ -194,7 +194,7 @@ transform.Unmarshal . }}
 {{ end }}
 <div class="text-center">
 <a href="{{ .Site.BaseURL }}knowledgebase" class="btn btn-primary read-more">
-    Read more...
+    {{ i18n "read-more" . }}
 </a>
   <hr style="margin-bottom: 15px; color:black">
   </div>

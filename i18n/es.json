@@ -147,6 +147,21 @@
       "home-description": {
         "other": "Habilita tus aplicaciones para manipular Word, Excel, PDF, PowerPoint y más de 100 otros formatos de archivo para todas las plataformas principales."
       },
+      "visit-product-page": {
+        "other": "Visita la página del producto"
+      },
+      "jump-to": {
+        "other": "Saltar a"
+      },
+      "most-popular": {
+        "other": "Más popular (Paquete)"
+      },
+      "knowledgebase": {
+        "other": "Base de conocimientos"
+      },
+      "read-more": {
+        "other": "Leer más..."
+      },
       "estimate": {
         "other": "Puedes estimar los costos mensuales usando nuestro"
       },

@@ -147,6 +147,21 @@
       "home-description": {
         "other": "使您的应用能够操控 Word、Excel、PDF、PowerPoint 以及其他 100 多种文件格式，支持所有主要平台。"
       },
+      "visit-product-page": {
+        "other": "访问产品页面"
+      },
+      "jump-to": {
+        "other": "跳转至"
+      },
+      "most-popular": {
+        "other": "最受欢迎（捆绑包）"
+      },
+      "knowledgebase": {
+        "other": "知识库"
+      },
+      "read-more": {
+        "other": "阅读更多..."
+      },
       "estimate": {
         "other": "您可以使用我们的"
       },
